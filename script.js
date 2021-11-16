@@ -94,7 +94,7 @@ if(d.length==11){
     }
   is_pressed=true;
   console.log(suma);
-  alert(suma);
+  //alert(suma);
 
   document.getElementById("punkty_1").innerHTML +=  suma + " pkt";
 
