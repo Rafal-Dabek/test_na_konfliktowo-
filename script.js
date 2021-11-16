@@ -1,54 +1,5 @@
-
-
-function show_table()
-{
-  
-  if (document.getElementById("result_section1").style.display == "none")
-        document.getElementById("result_section1").style.display="block";
-    else if(document.getElementById("result_section1").style.display="block")
-        document.getElementById("result_section1").style.display="none";
-
-
-        if (document.getElementById("result_section2").style.display == "none")
-        document.getElementById("result_section2").style.display="block";
-    else if(document.getElementById("result_section2").style.display="block")
-        document.getElementById("result_section2").style.display="none";
-
-        if (document.getElementById("result_section3").style.display == "none")
-        document.getElementById("result_section3").style.display="block";
-    else if(document.getElementById("result_section3").style.display="block")
-        document.getElementById("result_section3").style.display="none";
-
-        if (document.getElementById("result_section4").style.display == "none")
-        document.getElementById("result_section4").style.display="block";
-    else if(document.getElementById("result_section4").style.display="block")
-        document.getElementById("result_section4").style.display="none";
-
-        if (document.getElementById("result_section5").style.display == "none")
-        document.getElementById("result_section5").style.display="block";
-    else if(document.getElementById("result_section5").style.display="block")
-        document.getElementById("result_section5").style.display="none";
-
-        if (document.getElementById("result_section6").style.display == "none")
-        document.getElementById("result_section6").style.display="block";
-    else if(document.getElementById("result_section6").style.display="block")
-        document.getElementById("result_section6").style.display="none";
-
-        if (document.getElementById("result_section7").style.display == "none")
-        document.getElementById("result_section7").style.display="block";
-    else if(document.getElementById("result_section7").style.display="block")
-        document.getElementById("result_section7").style.display="none";
-
-        if (document.getElementById("result_section8").style.display == "none")
-        document.getElementById("result_section8").style.display="block";
-    else if(document.getElementById("result_section8").style.display="block")
-        document.getElementById("result_section8").style.display="none";
- 
-
-  
-}
-
 var is_pressed=false;
+
 function done(){
   var suma=0;
   
@@ -87,7 +38,7 @@ if((d.length)!=11){
   alert("Nie wszytkie odpowiedzi są zaznaczone")
 }
 
-if(d.length==11){
+if(d.length==11 && (is_pressed==false)){
   for(i=0;i<p.length;i++){
 
     suma+=parseInt(p[i]);
@@ -96,7 +47,14 @@ if(d.length==11){
   console.log(suma);
   //alert(suma);
 
-  document.getElementById("punkty_1").innerHTML +=  suma + " pkt";
+
+  
+    document.getElementById("punkty_1").innerHTML +=  suma ;
+
+   
+  
+
+  
 
 }
 
