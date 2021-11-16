@@ -1,55 +1,8 @@
-
-
-function show_table()
-{
-  
-  if (document.getElementById("result_section1").style.display == "none")
-        document.getElementById("result_section1").style.display="block";
-    else if(document.getElementById("result_section1").style.display="block")
-        document.getElementById("result_section1").style.display="none";
-
-
-        if (document.getElementById("result_section2").style.display == "none")
-        document.getElementById("result_section2").style.display="block";
-    else if(document.getElementById("result_section2").style.display="block")
-        document.getElementById("result_section2").style.display="none";
-
-        if (document.getElementById("result_section3").style.display == "none")
-        document.getElementById("result_section3").style.display="block";
-    else if(document.getElementById("result_section3").style.display="block")
-        document.getElementById("result_section3").style.display="none";
-
-        if (document.getElementById("result_section4").style.display == "none")
-        document.getElementById("result_section4").style.display="block";
-    else if(document.getElementById("result_section4").style.display="block")
-        document.getElementById("result_section4").style.display="none";
-
-        if (document.getElementById("result_section5").style.display == "none")
-        document.getElementById("result_section5").style.display="block";
-    else if(document.getElementById("result_section5").style.display="block")
-        document.getElementById("result_section5").style.display="none";
-
-        if (document.getElementById("result_section6").style.display == "none")
-        document.getElementById("result_section6").style.display="block";
-    else if(document.getElementById("result_section6").style.display="block")
-        document.getElementById("result_section6").style.display="none";
-
-        if (document.getElementById("result_section7").style.display == "none")
-        document.getElementById("result_section7").style.display="block";
-    else if(document.getElementById("result_section7").style.display="block")
-        document.getElementById("result_section7").style.display="none";
-
-        if (document.getElementById("result_section8").style.display == "none")
-        document.getElementById("result_section8").style.display="block";
-    else if(document.getElementById("result_section8").style.display="block")
-        document.getElementById("result_section8").style.display="none";
- 
-
-  
-}
-
 var is_pressed=false;
+
 function done(){
+
+
   var mentor=0;
   var A=0;
   var B=0;
