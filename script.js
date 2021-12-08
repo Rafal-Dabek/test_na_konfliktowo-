@@ -45,7 +45,7 @@ if(d.length==11 && (is_pressed==false)){
     }
   is_pressed=true;
   console.log(suma);
-  //alert(suma);
+  
 
 
   
