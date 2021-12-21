@@ -194,3 +194,7 @@ td, th
     color:black;
 }
 
+
+#results{
+    display:none;
+}

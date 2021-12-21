@@ -50,7 +50,7 @@ if(d.length==11 && (is_pressed==false)){
 
   
     document.getElementById("punkty_1").innerHTML +=  suma ;
-
+    document.getElementById("results").style.display = "inline";
    
   
 
